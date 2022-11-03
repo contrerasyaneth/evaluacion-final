@@ -1,0 +1,56 @@
+body{
+    padding: 5%;
+    background-color: #222828;
+}
+
+main{
+    background-color: #c3caca;
+}
+
+.caja{
+    text-align: center;
+}
+
+.img1{
+    width: 60%;
+    border-radius:30%;
+}
+.img2{
+    width: 50%;
+    border-radius: 70%;
+}
+
+.img3{
+    width: 60%;
+    border-radius:40%;
+}
+
+.img4{
+    width: 60%;
+    border-radius: 30%;  
+}
+
+.img5{
+    width: 60%;
+    border-radius: 40%;
+}
+.img6{
+    width: 60%;
+    border-radius: 20%;
+}
+
+.img7{
+    width: 15%;
+}
+.img8{
+    width: 20%;
+}
+.ultimo{
+    color: #c3caca;
+}
+footer{
+    background-color: black;
+    color: #c3caca;
+   
+}
+
