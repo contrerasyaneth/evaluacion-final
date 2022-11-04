@@ -5,10 +5,30 @@ body{
 
 main{
     background-color: #c3caca;
+    font-style: italic;
+}
+
+
+h1{
+    color: #c3caca;
+    text-align: center;
+}
+
+h2{
+   font-style: normal;
+}
+
+.parrafo1{
+    color:aliceblue;
+    font-style: italic;
+}
+hr{
+    width: 30%;
 }
 
 .caja{
     text-align: center;
+
 }
 
 .img1{
@@ -40,17 +60,20 @@ main{
 }
 
 .img7{
-    width: 15%;
+    width: 5%;
 }
 .img8{
-    width: 20%;
+    width: 5%;
 }
 .ultimo{
     color: #c3caca;
+    text-align:left;
 }
 footer{
     background-color: black;
     color: #c3caca;
+    text-align: center;
+    font-style: italic;
    
 }
 
