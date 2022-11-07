@@ -25,7 +25,8 @@ h1{
     margin-top: 5%;
     width: 30%;
     height: 5px;
-    background-color:rgba(19, 233, 0, 0.929);
+    background: rgb(244,244,0);
+background: linear-gradient(90deg, rgba(244,244,0,1) 6%, rgba(255,0,4,1) 18%, rgba(2,173,23,1) 29%, rgba(36,47,240,1) 54%);
 }
 
 
@@ -142,12 +143,18 @@ footer{
     font-style: italic; 
 }
 
+/*pantalla  media*/
 
+@media  screen and (min-width: 700px) {
+
+    main{
+        background-color: aqua;
+    }
 
 
 /*pantalla  grande*/
 
-@media  screen and (min-width:700px) {
+@media  screen and (min-width:1200px) {
 
 
 body{
@@ -267,10 +274,5 @@ footer{
 
 }
 
-/*pantalla  media*/
 
-@media  screen and (min-width: 1200px) {
-
-    main{
-    }
 }
