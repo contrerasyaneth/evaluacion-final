@@ -209,18 +209,21 @@ footer{
 
 body{
     background-color: rgb(8, 59, 67);
-
+   
 }
 
 
 main{
     background-color: wheat;
+    width: 80%;
+    
 }
 
 h1{
     color:aliceblue;
     font-style: italic;
 }
+
 
 .subrayado{
     margin-top: 2%;
@@ -231,19 +234,29 @@ h1{
 
 
 .flecha{
-    margin-left: 90%;
-    width:5%;
+    
+   
+}
+.menu{
+    width: 2%;
 }
 .parrafo1{
     text-align: center;
     width: 40%;
-    margin-left: 30%;
+   margin-left: 30%;
+}
+
+.seccion,
+.seccion1,
+.seccion2,
+.seccion3 {
+    flex-direction: column;
 }
 
 .caja{
     display: flex;
-    flex-direction: row;
-    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -254,6 +267,7 @@ hr{
 
 }
 h2{
+   
     margin-right: 5%;
     margin-bottom: 30%;
     color: rgb(8, 59, 67) ;
@@ -264,30 +278,30 @@ p{
     margin-top: 10%;
 }
 .img1{
-     width: 30%;
+     width: 20%;
      border-radius: 5%;
 }
 
 .img2{
-    width: 30%;
+    width: 20%;
     border-radius: 5%;
 }
 
 .img3{
-   width: 30%;
+   width: 20%;
    border-radius: 5%;
 }
 
 .img4{
-   width: 30%;
+   width: 20%;
    border-radius: 5%;
 }
 .img5{
-    width: 30%;
+    width: 20%;
     border-radius: 5%;
 }
 .img6{
-    width: 30%;
+    width: 20%;
     border-radius: 5%;
 }
 
